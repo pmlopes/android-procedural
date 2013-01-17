@@ -1,0 +1,35 @@
+com.jetdrone.and2d.Game:
+    private static final int NULL_STATE
+    private static final int GAME_RUNNING
+    private static final int GAME_OVER
+    private static final int GAME_COMPLETE
+    private static final int GAME_LANDSCAPE
+    private boolean mPortrait
+com.jetdrone.and2d.GameLoop:
+    public abstract int getFPS()
+com.jetdrone.and2d.R
+com.jetdrone.and2d.R$attr
+com.jetdrone.and2d.R$drawable
+com.jetdrone.and2d.gfx.Particle:
+    int color
+    74:76:public void addGravity(float,float)
+com.jetdrone.and2d.gfx.ParticleHandler:
+    float randx
+    float randy
+com.jetdrone.and2d.gfx.Spaceship:
+    private static final int cols
+    private static final int rows
+    private static final int EMPTY
+    private static final int AVOID
+    private static final int SOLID
+    private static final int COKPT
+    54:54:int getHeight()
+    58:58:int getWidth()
+    62:64:void setMargins(int,int)
+    67:69:void setScales(int,int)
+    72:73:void setSeed(int)
+    179:218:public void draw(android.graphics.Canvas)
+com.jetdrone.and2d.sfx.SFXR:
+    504:539:public void randomize()
+    543:587:public void mutate()
+com.jetdrone.and2d.util.MiniMT
